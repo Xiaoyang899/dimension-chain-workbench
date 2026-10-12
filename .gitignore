@@ -1,0 +1,38 @@
+# Local dependencies and machine files
+node_modules/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+.npm/
+coverage/
+output/playwright/
+.cache/
+
+# Credentials and local editor/agent configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+.agents/
+.codex/
+.aws/
+
+# Source reference documents are not part of the public release
+/*.pdf
+/*.xls
+/*.xlsx
+
+# User project files and reports
+/projects/
+/*.chain.json
+/*.csv
+
+# Local publication review material
+/GitHub发布审批.md
+/.publish/
+
+# Keep 尺寸链计算工具.html tracked for direct offline use

@@ -1,0 +1,14 @@
+{
+  "name": "dimension-chain-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "check": "node --test tests/build.test.js"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": { "esbuild": "0.25.12" }
+}
